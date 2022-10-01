@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+.header{
+    background: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+#header-logo{
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.header-link{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    background: #1f2937;
+}
+
+#content .left-content p{
+    margin-top: -10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup-button{
+    background: #3882f6;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: #f9faf8;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+}
+
+#content .left-content h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+#content .left-content{
+    padding-left: 100px;
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    
+}
+#content .right-content{
+    display: flex;
+    align-items: center;
+}
+
+#placeholder-image-content{
+    width: 480px;
+    height: 240px;
+    padding-right: 60px;
+}
