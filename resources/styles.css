@@ -93,10 +93,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px;
 }
 
 #random-information h1{
-    margin-bottom: 40px;
+    margin-top: -10px;
+    margin-bottom: 80px;
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
@@ -123,4 +125,64 @@ body{
 
 .square-item p{
     width: 100px;
+}
+
+#quote-section{
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+#quote{
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+#quotee{
+    margin-right: -600px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#call-to-action{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#inner-blue-div{
+    padding: 30px 100px;
+    height: auto;
+    width: 800px;
+    background: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 150px;
+}
+
+#inner-blue-div h1{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+#inner-blue-div p{
+    margin-top: -20px;
+    color: #e5e7eb;
+}
+
+#inner-blue-div input{
+    border: 2px solid white;
+}
+
+#call-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
